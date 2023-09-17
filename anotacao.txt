@@ -1,0 +1,34 @@
+<h1>Símbolos especiais</h1>
+      <p>
+        &lt;
+        &gt;
+        &ge; </b>
+
+        &pound;
+        &yen;
+        &euro; </b>
+
+        &copy;
+        &reg;
+        &trade; </b>
+        &permil;
+        &Sum;
+        &infin;
+        &times;
+        &plusmn;
+        &plus;
+        &radic;
+        &ne;</b>
+        &Delta;
+        &delta;
+
+      </p>
+
+      16.09.2023
+      - Aula 15 do curso muito importante rever até entender plenamente
+      - Site para fotes (https://fonts.google.com/)
+
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
