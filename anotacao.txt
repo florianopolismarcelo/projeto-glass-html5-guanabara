@@ -35,3 +35,10 @@
       - A tag HTML <head> é um contêiner para metadados e links para scripts e folhas de estilo.
 
       - A tag <header> é um contêiner semântico usado para designar conteúdo de natureza introdutória ou de navegação.
+
+
+
+   19.09.2023
+
+   Assistir aula 24 e entender a lógica que o professor explica tempo no video 08:00 minutos.
+   
