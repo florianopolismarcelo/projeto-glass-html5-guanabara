@@ -70,8 +70,29 @@
           </p>
 
           <section id="conteudo">
-            <img src="_imagens/glass-esquema-marcado.jpg">
-            <iframe src="google-glass.html" name="janela" id="frame-spec"></iframe>
+            <img src="_imagens/glass-esquema-marcado.jpg" usemap="#meumapa" />
+            <map name="meumapa">
+              <area
+                shape="rect"
+                coords="179,192,262,260"
+                href="google-glass.html#tela"
+                target="janela"
+              />
+              <area
+                shape="circle"
+                coords="158,243,13"
+                href="google-glass.html#camera"
+                target="janela"
+              />
+              <area shape="circle" coords="75,51,13" href="google-glass.html#gadgets" target="janela"/>
+
+              <area shape="poly" coords="26,143,83,216,83,252,27,166" href="google-glass.html#sensores" target="janela"/>
+            </map>
+            <iframe
+              src="google-glass.html"
+              name="janela"
+              id="frame-spec"
+            ></iframe>
           </section>
         </article>
       </section>
