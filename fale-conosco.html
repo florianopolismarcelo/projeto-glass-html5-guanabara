@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tudo sobre Google Glass</title>
     <link rel="stylesheet" href="_css/estilo.css" />
+    <link rel="stylesheet" href="_css/form.css" />
   </head>
   <script language="javascript" src="_javascript/funcoes.js"></script>
   <body>
@@ -15,57 +16,130 @@
           <h2>A revolução do Google está chegando</h2>
         </hgroup>
 
-        <img id="icone" src="_imagens/glass-oculos-preto-peq.png" />
+        <img id="icone" src="_imagens/contato.png" />
         <nav id="menu">
           <h1>Menu Principal</h1>
           <ul type="disc">
             <li
               onmousemove="mudaFoto('_imagens/home.png')"
-              onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"
+              onmouseout="mudaFoto('_imagens/contato.png')"
             >
               <a href="index.html">Home</a>
             </li>
             <li
               onmousemove="mudaFoto('_imagens/especificacoes.png')"
-              onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"
+              onmouseout="mudaFoto('_imagens/contato.png')"
             >
               <a href="./specs.html">Especificações</a>
             </li>
             <li
               onmousemove="mudaFoto('_imagens/fotos.png')"
-              onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"
+              onmouseout="mudaFoto('_imagens/contato.png')"
             >
               <a href="./fotos.html">Fotos</a>
             </li>
             <li
               onmousemove="mudaFoto('_imagens/multimidia.png')"
-              onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"
+              onmouseout="mudaFoto('_imagens/contato.png')"
             >
               <a href="./multimidia.html">Multimídia</a>
             </li>
             <li
               onmousemove="mudaFoto('_imagens/contato.png')"
-              onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"
+              onmouseout="mudaFoto('_imagens/contato.png')"
             >
               <a href="./fale-conosco.html">Fale conosco</a>
             </li>
           </ul>
         </nav>
       </header>
+      <section id="corpo-full">
+        <article id="noticia-principal">
+          <header id="cabecalho-artigo">
+            <hgroup>
+              <h3>Glass > Multimídia</h3>
+              <h1>Sons e Vídeos</h1>
+              <h2>por Gustavo Guanabara</h2>
+              <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+            </hgroup>
+          </header>
 
-      Glass > Especificações Raio-X no Google Glass por Gustavo Guanabara
-      Atualizado em 01/Maio/2013 Clique em qualquer área destacada da imagem
-      para ter mais informações sobre os recursos do Google Glass. Qualquer
-      ponto vermelho vai te levar a um lugar cheio de novas informações. [AQUI
-      ENTRA UMA IMAGEM] Copyright 2013 - by Gustavo Guanabara< Facebook |
-      Twitter
+          <form>
+            <fieldset id="usuario">
+              <legend>Indentificação do Usuário</legend>
+              <p>
+                <label for="cNome">Nome:</label
+                ><input
+                  type="text"
+                  name="tNome"
+                  id="cNome"
+                  size="20"
+                  maxlength="30"
+                  placeholder="Nome Completo"
+                />
+              </p>
+              <p>
+                <label for="cSenha">Senha:</label
+                ><input
+                  type="password"
+                  name="tSenha"
+                  id="cSenha"
+                  size="8"
+                  maxlength="8"
+                  placeholder="Oito Digitos"
+                />
+              </p>
+              <p>
+                <label for="cMail">E-mail:</label
+                ><input
+                  type="email"
+                  name="tMail"
+                  id="cMail"
+                  size="40"
+                  placeholder="Digite seu e-mail"
+                />
+              </p>
+              <fieldset id="sexo">
+                <legend>Sexo:</legend>
+
+                <input type="radio" name="tSexo" id="cMasc" checked />
+                <label for="cMasc">Masculino</label><br />
+                <input type="radio" name="tSexo" id="cFem" />
+                <label for="cFem ">Feminino</label>
+              </fieldset>
+              <p>Data de Nascimento: <input type="date" name="rNasc"></p>
+            </fieldset>
+            <fieldset id="endereco">
+              <legend>Endereço do Usuário</legend>
+
+              <p>Logradouro: <input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua, Av, Trav "></p>
+              <p>Número:<input type="nuber" name="tNum" id="cRua" min="0" max="99999" ></p>
+              <p>Estado:</p>
+              <p>Cidade:</p>
+            </fieldset>
+            <fieldset id="mensagem">
+              <legend>Mesangem do Usuário</legend>
+
+              <p>Grau de Urgência:</p>
+              <p>Mensagem:</p>
+            </fieldset>
+            <fieldset id="pedido">
+              <legend>Quero um Google Glass</legend>
+              <p>Gostaria de adquirir um Google Glass quando disponível</p>
+              <p>Cor:</p>
+              <p>Quantidade:</p>
+              <p>Preço Total: R$</p>
+            </fieldset>
+            [BOTÃO ENVIAR]
+          </form>
+        </article>
+      </section>
       <footer id="rodape">
         <p>
           Copyright &copy; 2013 - by Gustavo Guanabara <br />
           <a href="http://Facebook.com/cursosemvideo" target="_blank"
             >Facebook</a
-          >
-          |
+          >|
           <a href="http://twitter.com/cursoemvideo" target="_blank">Twitter</a>
         </p>
       </footer>
